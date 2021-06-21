@@ -7,6 +7,7 @@ import { AuthGuard } from './app-routing.guard';
 import { AuthService } from './services/auth.service';
 import { LoginComponent } from './login/login.component';
 import { Role } from './models/role';
+import { CustomerComponent } from './customer/customer.component';
 
 
 const routes: Routes = [
@@ -27,6 +28,10 @@ const routes: Routes = [
       {
         path: 'login',
         component: LoginComponent
+      },
+      {
+        path: 'register',
+        component: CustomerComponent
       }
     ]
   },

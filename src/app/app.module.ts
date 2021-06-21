@@ -11,6 +11,7 @@ import { UserRoleDirective } from './directives/user-role.directive';
 import { UserDirective } from './directives/user.directive';
 import { AuthService } from './services/auth.service';
 import { FormsModule } from '@angular/forms';
+import { CustomerComponent } from './customer/customer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FormsModule } from '@angular/forms';
     NotFoundComponent,
     LoginComponent,
     UserDirective,
-    UserRoleDirective
+    UserRoleDirective,
+    CustomerComponent
   ],
   imports: [
     BrowserModule,
